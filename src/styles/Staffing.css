@@ -1,0 +1,236 @@
+/* MOBILE */
+@media screen and (max-width: 767px) {
+	#Staffing {
+		height: 100%;
+	}
+
+	.Staffing-Navbar-Logo {
+		margin: 0 auto;
+		display: block;
+		padding: 1em 0em;
+	}
+
+	.Staffing-SubHeader, .Staffing-Body > p {
+		text-align: center;
+	}
+
+	.Staffing-SubHeader, .Staffing-Body {
+		padding: 0 1em;
+	}
+}
+
+/* MOBILE - PORTRAIT */
+@media screen and (max-width: 480px) and (orientation: portrait) {
+	.Staffing-Header img {
+		width: 100%;
+		height: auto;
+	}
+
+	.Staffing-Message-Button {
+		width: 75%;
+	}
+
+	.Staffing-SubHeader, .Staffing-Body {
+		padding: 0 1em;
+	}
+
+	.Staffing-Staff-List img {
+		width: 100%;
+	}
+}
+
+/* MOBILE - LANDSCAPE */
+@media screen and (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+	.Staffing-Header {
+		order: 2;
+	}
+
+	.Staffing-Header img {
+		width: auto;
+		height: 14em;
+	}
+
+	.Staffing-Top {
+		display: flex;
+		padding: 0 7px;
+	}
+
+	.Staffing-SubHeader {
+		order: 1;
+	}
+
+	.Staffing-SubHeader h2 {
+		margin: 7px 0;
+	}
+
+	.Staffing-Body > * {
+		margin: 10px 0;
+	}
+
+	.Staffing-Staff-List {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.Staffing-Staff-List li {
+		margin: 0 auto;
+	}
+}
+
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.Staffing-Navbar-Logo {
+		margin: 0 auto;
+		display: block;
+		padding: 1em 0em;
+	}
+
+	.Staffing-Top {
+		display: flex;
+	}
+
+	.Staffing-Header {
+		margin-top: 1em;
+		order: 2;
+	}
+
+	.Staffing-Header img {
+		margin: 0 auto;
+		display: block;
+		width: auto;
+		height: 20em;
+	}
+
+	.Staffing-SubHeader {
+		order: 1;
+		padding-right: 1em;
+	}
+
+	.Staffing-Top, .Staffing-Body {
+		padding: 0 1em;
+	}
+
+	.Staffing-SubHeader, .Staffing-Body > p {
+		text-align: center;
+	}
+
+	.Staffing-Staff-List {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.Staffing-Staff-List li {
+		margin: 0 auto;
+	}
+}
+
+/* TABLET - PORTRAIT */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+	#Staffing {
+		height: 73em;
+	}
+}
+
+/* TABLET - LANDSCAPE */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	#Staffing {
+		height: 55em;
+	}
+}
+
+
+/* DESKTOPS */
+@media screen and (min-width: 1025px) {
+	.Staffing-Navbar-Logo {
+		margin-left: 3em;
+		padding: 1em 0em;
+	}
+
+	.Staffing-SubHeader {
+		order: 1;
+		padding-right: 1em;
+	}
+
+	.Staffing-Header {
+		order: 2;
+	}
+
+	.Staffing-Top {
+		display: flex;
+		padding: 2em 3em;
+	}
+
+	.Staffing-Body {
+		padding: 0 3em;
+	}
+
+	.Staffing-Staff-List {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.Staffing-Staff-List li {
+		margin: 0 auto;
+	}
+}
+
+
+/* ALL DEVICES */
+#Staffing {
+	background-color: white;
+}
+
+#Staffing > * {
+	font-family: "Avenir";
+	line-height: normal;
+}
+
+.Staffing-Navbar {
+	height: auto;
+	width: 100%;
+	background-color: #75c2f6;
+}
+
+.Staffing-SubHeader h2 {
+	font-size: 30px;
+	font-weight: 900;
+	color: #a4a4b3;
+}
+
+.Staffing-SubHeader h3 {
+	color: #3198e5;
+}
+
+.Staffing-Message-Button {
+	border-radius: 7px;
+	background-color: #3198e5;
+	height: 3em;
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+	color: #ffffff;
+	width: 75%;
+}
+
+.Staffing-Message-Button img {
+	margin-right: 1em;
+}
+
+.Staffing-Body > p {
+	font-size: 25px;
+	font-weight: normal;
+	color: #333241;
+}
+
+.Staffing-Body > h3 {
+	font-size: 30px;
+	font-weight: 500;
+	color: #3198e5;
+	text-align: center;
+}
+
+.Staffing-Staff-List {
+	list-style: none;
+	padding: 0;
+}

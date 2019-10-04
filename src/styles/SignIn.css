@@ -1,0 +1,115 @@
+/* MOBILE AND TABLET */
+@media screen and (max-width: 1024px) {
+	.SignIn-Panel {
+    	width: 100%;
+	}
+}
+
+/* DESKTOPS */
+@media screen and (min-width: 1025px) {
+	.SignIn-Panel {
+		width: 28em;
+	}
+}
+
+#SignIn {
+	height: 100%;
+}
+
+#SignIn > * {
+	font-family: Avenir;
+}
+
+.input-form input, .Ready-Landing-btn, .Landing-btn {
+	margin: 1em auto;
+}
+
+.SignIn-Panel {
+	background-color: white;
+	height: auto;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+	margin: auto;
+}
+
+.SignIn-Header {
+	display: flex;
+}
+
+.SignIn-Header a {
+	position: absolute;
+	margin-left: 1em;
+}
+
+.SignIn-Header h2 {
+	font-size: 17px;
+	font-weight: 900;
+	color: #333241;
+	margin: 1em auto;
+}
+
+.SignIn-Inputs > * {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.input-form input {
+	width: 80%;
+	border-radius: 5px;
+	border: 1px solid #cacaca;
+	font-size: 1em;
+	height: 3em;
+	padding-left: 1em;
+}
+
+.Ready-Landing-btn {
+	background-color: #3198E5;
+	color: white;
+	border: none;
+	width: 80%;
+	height: 3em;
+	border-radius: 5px;
+	min-width: 175px;
+	font-size: 18px;
+	justify-content: center;
+	cursor: pointer;
+	display: flex;
+}
+
+.Ready-Landing-btn:focus {
+	outline: none;
+}
+
+.Ready-Landing-btn:hover {
+	opacity: .9;
+	box-shadow: 0 1px 4px #979797;
+}
+
+.Landing-btn {
+	background-color: #98CCF2;
+	color: white;
+	border: none;
+	width: 80%;
+	height: 3em;
+	border-radius: 5px;
+	font-size: 18px;
+	justify-content: center;
+	cursor: pointer;
+	display: flex;
+}
+
+.Landing-btn:focus {
+	outline: none;
+}
+
+.Landing-btn:hover {
+	opacity: .9;
+	box-shadow: 0 1px 4px #979797;
+}
+
+.SignIn-Registration-Links {
+	padding: 0 1em;
+	text-align: center;
+}

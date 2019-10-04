@@ -1,0 +1,20 @@
+#Divider {
+	display: flex;
+}
+
+#Divider > * {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Divider-Text {
+	color: #a4a4b3;
+}
+
+.Strikethrough {
+	background-color: #a4a4b3;
+	opacity: 0.2;
+	margin-top: 7px;
+	height: 2px;
+	width: 40%;
+}

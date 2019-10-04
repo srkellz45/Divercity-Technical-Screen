@@ -1,0 +1,64 @@
+/* TABLETS AND DESKTOPS */
+@media screen and (min-width: 513px) {
+	.Footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		display: flex;
+	}
+
+	.Footer img {
+		width: 2em;
+		height: 2em;
+		margin-left: auto;
+	}
+
+	.Footer h2 {
+		margin-right: auto;
+	}
+}
+
+/* MOBILE */
+@media screen and (max-width: 512px) {
+	.Footer {
+		display: none;
+	}
+}
+
+/* LANDSCAPE */
+@media (orientation: landscape) {
+	.Footer {
+		display: none;
+	}
+}
+
+/* TABLETS */
+@media screen and (min-width: 513px) and (max-width: 1024px) {
+	.Footer {
+		padding: 2em 4em;
+	}
+}
+
+/* WINDOW */
+@media screen and (min-width: 1025px) {
+	.Footer {
+		display: flex;
+		padding: 2em 4em;
+	}
+}
+
+.Footer {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.Footer h2 {
+	font-family: Avenir-Roman;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 0.86;
+	color: #333241;
+	margin-top: 5px;
+	margin-left: 1em;
+}
